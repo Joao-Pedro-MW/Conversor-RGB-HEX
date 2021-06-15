@@ -11,6 +11,5 @@ def rgb(r, g, b):
     g = '{:02X}'.format(g) #é adicionado um zero a esquerda do número
     b = '{:02X}'.format(b)
     a = '{0}{1}{2}'.format(r,g,b)
-    a = a.upper() 
     return a
 
